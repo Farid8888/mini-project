@@ -1,0 +1,20 @@
+.blue {
+    position: absolute;
+    width: 200px;
+    height: 159px;
+    right: 552px;
+    top: -40px;
+    background: #833ab4;
+    opacity: 1;
+    filter: blur(196px);
+}
+
+@media (max-width: 500px) {
+  .blue {
+    width: 100px;
+    height: 259px;
+    right:88px;
+    top: 107px;
+    filter: blur(136px);
+  }
+}

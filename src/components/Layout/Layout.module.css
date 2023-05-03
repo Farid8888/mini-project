@@ -1,0 +1,11 @@
+.layout{
+    padding:  2rem 4rem;
+    background-color: #1E1E1E;
+    box-sizing: border-box;
+}
+
+@media(max-width:500px){
+    .layout{
+        padding: 0 5px 0;
+    }
+}

@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    background-color:  #1E1E1E;
+}
+
+.footer h2{
+    color: #656566;
+}
+
+.footer p{
+    color:#E4E5EA
+}

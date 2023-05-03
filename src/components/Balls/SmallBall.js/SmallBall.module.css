@@ -1,0 +1,32 @@
+.ball{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 60%;
+    top: 26.5rem;
+    border-radius: 50%;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.48) 0%, rgba(212, 93, 93, 0.248) 59.67%, rgba(167, 49, 49, 0.264) 78.59%, rgba(130, 25, 25, 0.232) 100%);
+    box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
+    filter: blur(1px);
+    backdrop-filter: blur(2px);
+}
+
+@media(max-width:500px){
+    .ball{
+        left:10%;
+        top:70%;
+        filter:blur(5px);
+        z-index: 0;
+    }
+}
+@media(max-width:430px){
+    .ball{
+        top:51%
+    }
+}
+
+@media(max-width:380px){
+    .ball{
+        top:68%
+    }
+}

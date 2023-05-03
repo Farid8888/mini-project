@@ -1,0 +1,22 @@
+.purple{
+    position: absolute;
+width: 311px;
+height: 111px;
+left: -22px;
+top: 251px;
+
+background: #961A1A;
+opacity: 0.5;
+filter: blur(196px);
+}
+
+@media(max-width:500px){
+    .purple{
+        width: 211px;
+        height: 210px;
+        left: -55px;
+        top: 241px;
+        background: #961A1A;
+        filter: blur(136px); 
+    }
+}

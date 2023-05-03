@@ -1,0 +1,43 @@
+.bodyLeft {
+  width: 19%;
+  margin-top: 4rem;
+}
+.bodyLeft p{
+    color: #E4E5EA;
+}
+
+.bodyLeft h2 {
+  margin-top: 0;
+  font-weight: 800;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, #fcb045, #ff3f78), #e4e5ea;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  width: 10rem;
+}
+.bodyLeft h1 {
+  margin-bottom: 0;
+  color: rgba(228, 229, 234, 1);
+}
+
+
+@media(max-width:500px){
+    .bodyLeft{
+        width: 27rem;
+        max-width: 95%;
+        margin: 0 auto 40px;
+    }
+    .bodyLeft p{
+        width: 70%;
+    }
+    .bodyLeft h1{
+        font-size: 43px;
+        width: 40%;
+
+    }
+     .bodyLeft h2{
+        font-size: 35px;
+        width: 70%;
+     }
+}

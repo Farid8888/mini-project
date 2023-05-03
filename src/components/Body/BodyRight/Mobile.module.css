@@ -1,0 +1,22 @@
+.block {
+  display: grid;
+  position: relative;
+  grid-template-columns: 50% 50%;
+  justify-content: start;
+  gap: 0;
+  z-index: 50;
+}
+
+.block div {
+  font-size: 10px;
+  width: 80%;
+}
+.block p {
+  font-size: 8px;
+}
+
+.block h2 {
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: rgba(228, 229, 234, 1);
+}

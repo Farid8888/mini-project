@@ -1,0 +1,83 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 2rem;
+    font-size: 13px;
+}
+
+
+.footerFl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.welb{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: end;
+    align-items: flex-end;
+
+}
+
+
+
+.welb >p{
+    color:#E4E5EA ;
+    margin: 10px 0;
+}
+
+.welb h2{
+    color:#656566;
+}
+
+.welb p:last-child{
+    margin-top: 4rem;
+}
+
+.icons{
+width: 17%;
+display: flex;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+}
+.mobMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+@media(max-width:500px){   
+    .menu{
+        width: 23rem;
+    }
+    .footer{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .mobMenu{
+        flex-direction: column;
+        width: 26rem;
+    }
+    .welb{
+        width: 90%;
+        align-items: flex-start;
+        text-align: start;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width:402px){
+    .menu{
+        width: 20rem;
+    }
+}

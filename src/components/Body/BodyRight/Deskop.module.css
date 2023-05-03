@@ -1,0 +1,19 @@
+.block{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 10px;
+    width: 100%;
+    justify-content: end;
+}
+
+.block >div{
+font-size: 10px;
+}
+.block p{
+    font-size: 8px;
+    
+}
+
+h2{
+    margin: 0;
+}

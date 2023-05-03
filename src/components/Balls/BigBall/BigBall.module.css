@@ -1,0 +1,18 @@
+.ball{
+    position: absolute;
+width: 73px;
+height: 73px;
+Left:36%;
+margin-top: -2%;
+border-radius: 50%;
+background:radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%);
+box-shadow: 3px 6px 27px -10px rgba(50, 37, 37, 0.984);
+filter: blur(1px);
+backdrop-filter: blur(2px);
+}
+
+@media(max-width:500px){
+    .ball{
+        display: none;
+    }
+}
